@@ -14,6 +14,7 @@ import {
     MatSortModule
 } from '@angular/material';
 import { ListPageComponent } from './list-page/list-page.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
     declarations: [
@@ -29,6 +30,8 @@ import { ListPageComponent } from './list-page/list-page.component';
         MatTableModule,
         MatSortModule,
         MatGridListModule,
+        FormsModule,
+        ReactiveFormsModule,
         BrowserAnimationsModule,
         BrowserModule
     ],
